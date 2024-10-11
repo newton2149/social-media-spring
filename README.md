@@ -18,19 +18,8 @@ Full-Stack Social App with Spring boot and React
 
 **Server:** Java, Spring boot, PostgreSQL
 
-### Usage
  
-After running the Web API, you can make HTTP requests like:
-   
-   ```sh
-   https://localhost:8080/api/`CONTROLLER_NAME`/`METHOD_NAME`
-   ```
- 
-   `CONTROLLER_NAME` => Each .java file located in the `controllers` folder (For example CONTROLLER_NAME for `PostsController`: Posts )
-
-   `METHOD_NAME` => All of the methods in each .java file in the `controllers` folder
- 
-#### Sample HTTP GET requests:
+#### Some of the HTTP GET requests:
 
 1. List all Posts:
    ```sh
